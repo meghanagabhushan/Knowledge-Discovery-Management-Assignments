@@ -58,6 +58,8 @@ object SparkLDAMain {
     val conf = new SparkConf().setAppName(s"LDAExample with $params").setMaster("local[*]").set("spark.driver.memory", "4g").set("spark.executor.memory", "4g")
     val sc = new SparkContext(conf)
 
+    val inputPath=Seq("data/20_news/*")
+
     Logger.getRootLogger.setLevel(Level.WARN)
     val fileName = "TopicsLDA"
     val writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(fileName)))
@@ -65,7 +67,7 @@ object SparkLDAMain {
     // Load documents, and prepare them for LDA.
     val preprocessStart = System.nanoTime()
     val (corpus, vocabArray, actualNumTokens) =
-      preprocess(sc, params.input)
+      preprocess(sc, inputPath)
     corpus.cache()
     val actualCorpusSize = corpus.count()
     val actualVocabSize = vocabArray.length
