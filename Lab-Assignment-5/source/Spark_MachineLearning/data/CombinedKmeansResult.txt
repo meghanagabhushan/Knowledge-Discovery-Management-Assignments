@@ -1,0 +1,14 @@
+
+Corpus summary:
+	 Training set size: 6 documents
+	 Vocabulary size: 12252 terms
+	 Preprocessing time: 5.527733185 sec
+
+Finished training KMeans model.  Summary:
+	 Training time: 0.988844304 sec
+file:/C:/Users/Megha Nagabhushan/Documents/KDM/Source-code/CS5560 - Tutorial 5 Source/Spark_MachineLearning/data/combinedData/fitness-data/aerobics.txt;0
+file:/C:/Users/Megha Nagabhushan/Documents/KDM/Source-code/CS5560 - Tutorial 5 Source/Spark_MachineLearning/data/combinedData/fitness-data/gym.txt;0
+file:/C:/Users/Megha Nagabhushan/Documents/KDM/Source-code/CS5560 - Tutorial 5 Source/Spark_MachineLearning/data/combinedData/fitness-data/walking.txt;0
+file:/C:/Users/Megha Nagabhushan/Documents/KDM/Source-code/CS5560 - Tutorial 5 Source/Spark_MachineLearning/data/combinedData/fitness-data/yoga.txt;0
+file:/C:/Users/Megha Nagabhushan/Documents/KDM/Source-code/CS5560 - Tutorial 5 Source/Spark_MachineLearning/data/combinedData/yahoo/Diet&Fitness.txt;0
+file:/C:/Users/Megha Nagabhushan/Documents/KDM/Source-code/CS5560 - Tutorial 5 Source/Spark_MachineLearning/data/combinedData/yahoo/Heart.txt;0

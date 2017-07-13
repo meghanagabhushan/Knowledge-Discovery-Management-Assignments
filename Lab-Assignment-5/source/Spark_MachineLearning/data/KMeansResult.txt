@@ -1,0 +1,18 @@
+
+Corpus summary:
+	 Training set size: 10 documents
+	 Vocabulary size: 663 terms
+	 Preprocessing time: 7.489029284 sec
+
+Finished training KMeans model.  Summary:
+	 Training time: 1.053621239 sec
+file:/C:/Users/Megha Nagabhushan/Documents/KDM/Source-code/CS5560 - Tutorial 5 Source/Spark_MachineLearning/data/fitness/aerobics/1.txt;0
+file:/C:/Users/Megha Nagabhushan/Documents/KDM/Source-code/CS5560 - Tutorial 5 Source/Spark_MachineLearning/data/fitness/aerobics/2.txt;3
+file:/C:/Users/Megha Nagabhushan/Documents/KDM/Source-code/CS5560 - Tutorial 5 Source/Spark_MachineLearning/data/fitness/gym/3.txt;1
+file:/C:/Users/Megha Nagabhushan/Documents/KDM/Source-code/CS5560 - Tutorial 5 Source/Spark_MachineLearning/data/fitness/gym/4.txt;2
+file:/C:/Users/Megha Nagabhushan/Documents/KDM/Source-code/CS5560 - Tutorial 5 Source/Spark_MachineLearning/data/fitness/walking/5.txt;3
+file:/C:/Users/Megha Nagabhushan/Documents/KDM/Source-code/CS5560 - Tutorial 5 Source/Spark_MachineLearning/data/fitness/walking/6.txt;4
+file:/C:/Users/Megha Nagabhushan/Documents/KDM/Source-code/CS5560 - Tutorial 5 Source/Spark_MachineLearning/data/fitness/yoga/10.txt;3
+file:/C:/Users/Megha Nagabhushan/Documents/KDM/Source-code/CS5560 - Tutorial 5 Source/Spark_MachineLearning/data/fitness/yoga/7.txt;0
+file:/C:/Users/Megha Nagabhushan/Documents/KDM/Source-code/CS5560 - Tutorial 5 Source/Spark_MachineLearning/data/fitness/yoga/8.txt;3
+file:/C:/Users/Megha Nagabhushan/Documents/KDM/Source-code/CS5560 - Tutorial 5 Source/Spark_MachineLearning/data/fitness/yoga/9.txt;0
