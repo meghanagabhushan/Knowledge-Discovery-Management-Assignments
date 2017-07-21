@@ -38,7 +38,6 @@
     <orderEntry type="library" name="SBT: oro:oro:2.0.8:jar" level="project" />
     <orderEntry type="library" name="SBT: org.xerial.snappy:snappy-java:1.1.2:jar" level="project" />
     <orderEntry type="library" name="SBT: org.uncommons.maths:uncommons-maths:1.2.2a:jar" level="project" />
-    <orderEntry type="library" name="SBT: org.tukaani:xz:1.0:jar" level="project" />
     <orderEntry type="library" name="SBT: org.tachyonproject:tachyon-underfs-s3:0.8.2:jar" level="project" />
     <orderEntry type="library" name="SBT: org.tachyonproject:tachyon-underfs-local:0.8.2:jar" level="project" />
     <orderEntry type="library" name="SBT: org.tachyonproject:tachyon-underfs-hdfs:0.8.2:jar" level="project" />
@@ -46,11 +45,8 @@
     <orderEntry type="library" name="SBT: org.spire-math:spire_2.11:0.7.4:jar" level="project" />
     <orderEntry type="library" name="SBT: org.spire-math:spire-macros_2.11:0.7.4:jar" level="project" />
     <orderEntry type="library" name="SBT: org.spark-project.spark:unused:1.0.0:jar" level="project" />
-    <orderEntry type="library" name="SBT: org.sonatype.sisu.inject:cglib:2.2.1-v20090111:jar" level="project" />
     <orderEntry type="library" name="SBT: org.slf4j:slf4j-log4j12:1.7.10:jar" level="project" />
-    <orderEntry type="library" name="SBT: org.slf4j:slf4j-api:1.7.12:jar" level="project" />
     <orderEntry type="library" name="SBT: org.slf4j:jul-to-slf4j:1.7.10:jar" level="project" />
-    <orderEntry type="library" name="SBT: org.slf4j:jcl-over-slf4j:1.7.10:jar" level="project" />
     <orderEntry type="library" name="SBT: org.scalanlp:breeze_2.11:0.11.2:jar" level="project" />
     <orderEntry type="library" name="SBT: org.scalanlp:breeze-macros_2.11:0.11.2:jar" level="project" />
     <orderEntry type="library" name="SBT: org.scala-lang.modules:scala-xml_2.11:1.0.4:jar" level="project" />
@@ -152,7 +148,6 @@
     <orderEntry type="library" name="SBT: commons-net:commons-net:2.2:jar" level="project" />
     <orderEntry type="library" name="SBT: commons-logging:commons-logging:1.2:jar" level="project" />
     <orderEntry type="library" name="SBT: commons-lang:commons-lang:2.5:jar" level="project" />
-    <orderEntry type="library" name="SBT: commons-io:commons-io:2.4:jar" level="project" />
     <orderEntry type="library" name="SBT: commons-httpclient:commons-httpclient:3.1:jar" level="project" />
     <orderEntry type="library" name="SBT: commons-digester:commons-digester:1.8:jar" level="project" />
     <orderEntry type="library" name="SBT: commons-configuration:commons-configuration:1.6:jar" level="project" />
@@ -182,16 +177,10 @@
     <orderEntry type="library" name="SBT: com.googlecode.json-simple:json-simple:1.1.1:jar" level="project" />
     <orderEntry type="library" name="SBT: com.googlecode.efficient-java-matrix-library:ejml:0.23:jar" level="project" />
     <orderEntry type="library" name="SBT: com.google.protobuf:protobuf-java:2.6.1:jar" level="project" />
-    <orderEntry type="library" name="SBT: com.google.inject:guice:3.0:jar" level="project" />
-    <orderEntry type="library" name="SBT: com.google.guava:guava:14.0.1:jar" level="project" />
-    <orderEntry type="library" name="SBT: com.google.code.findbugs:jsr305:1.3.9:jar" level="project" />
     <orderEntry type="library" name="SBT: com.github.scopt:scopt_2.10:3.4.0:jar" level="project" />
     <orderEntry type="library" name="SBT: com.github.rwl:jtransforms:2.4.0:jar" level="project" />
     <orderEntry type="library" name="SBT: com.github.fommil.netlib:core:1.1.2:jar" level="project" />
     <orderEntry type="library" name="SBT: com.fasterxml.jackson.module:jackson-module-scala_2.11:2.4.4:jar" level="project" />
-    <orderEntry type="library" name="SBT: com.fasterxml.jackson.core:jackson-databind:2.4.4:jar" level="project" />
-    <orderEntry type="library" name="SBT: com.fasterxml.jackson.core:jackson-core:2.4.4:jar" level="project" />
-    <orderEntry type="library" name="SBT: com.fasterxml.jackson.core:jackson-annotations:2.4.4:jar" level="project" />
     <orderEntry type="library" name="SBT: com.esotericsoftware.reflectasm:reflectasm:1.07:shaded:jar" level="project" />
     <orderEntry type="library" name="SBT: com.esotericsoftware.minlog:minlog:1.2:jar" level="project" />
     <orderEntry type="library" name="SBT: com.esotericsoftware.kryo:kryo:2.21:jar" level="project" />
@@ -199,5 +188,51 @@
     <orderEntry type="library" name="SBT: asm:asm:3.1:jar" level="project" />
     <orderEntry type="library" name="SBT: aopalliance:aopalliance:1.0:jar" level="project" />
     <orderEntry type="library" name="SBT: org.scala-lang:scala-library:2.11.8:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.fasterxml.jackson.core:jackson-annotations:2.8.5:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.fasterxml.jackson.core:jackson-core:2.8.5:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.fasterxml.jackson.core:jackson-databind:2.8.5:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.github.ben-manes.caffeine:caffeine:2.3.5:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.github.jsonld-java:jsonld-java:0.9.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.google.code.findbugs:jsr305:3.0.1:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.google.guava:guava:20.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.google.inject:guice:4.1.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.google.inject.extensions:guice-assistedinject:4.1.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.google.inject.extensions:guice-multibindings:4.1.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: commons-io:commons-io:2.5:jar" level="project" />
+    <orderEntry type="library" name="SBT: net.sf.trove4j:trove4j:3.0.3:jar" level="project" />
+    <orderEntry type="library" name="SBT: net.sourceforge.owlapi:owlapi-api:5.1.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: net.sourceforge.owlapi:owlapi-apibinding:5.1.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: net.sourceforge.owlapi:owlapi-compatibility:5.1.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: net.sourceforge.owlapi:owlapi-distribution:5.1.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: net.sourceforge.owlapi:owlapi-impl:5.1.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: net.sourceforge.owlapi:owlapi-oboformat:5.1.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: net.sourceforge.owlapi:owlapi-parsers:5.1.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: net.sourceforge.owlapi:owlapi-rio:5.1.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: net.sourceforge.owlapi:owlapi-tools:5.1.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.commons:commons-rdf-api:0.3.0-incubating:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.httpcomponents:fluent-hc:4.5.2:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.httpcomponents:httpclient-cache:4.5.2:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.httpcomponents:httpclient-osgi:4.5.2:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.httpcomponents:httpcore-nio:4.4.4:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.httpcomponents:httpcore-osgi:4.4.4:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.httpcomponents:httpmime:4.5.2:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.eclipse.rdf4j:rdf4j-model:2.1.4:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.eclipse.rdf4j:rdf4j-rio-api:2.1.4:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.eclipse.rdf4j:rdf4j-rio-binary:2.1.4:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.eclipse.rdf4j:rdf4j-rio-datatypes:2.1.4:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.eclipse.rdf4j:rdf4j-rio-jsonld:2.1.4:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.eclipse.rdf4j:rdf4j-rio-languages:2.1.4:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.eclipse.rdf4j:rdf4j-rio-n3:2.1.4:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.eclipse.rdf4j:rdf4j-rio-nquads:2.1.4:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.eclipse.rdf4j:rdf4j-rio-ntriples:2.1.4:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.eclipse.rdf4j:rdf4j-rio-rdfjson:2.1.4:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.eclipse.rdf4j:rdf4j-rio-rdfxml:2.1.4:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.eclipse.rdf4j:rdf4j-rio-trig:2.1.4:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.eclipse.rdf4j:rdf4j-rio-trix:2.1.4:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.eclipse.rdf4j:rdf4j-rio-turtle:2.1.4:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.eclipse.rdf4j:rdf4j-util:2.1.4:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.slf4j:jcl-over-slf4j:1.7.22:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.slf4j:slf4j-api:1.7.22:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.tukaani:xz:1.6:jar" level="project" />
   </component>
 </module>

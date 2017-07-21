@@ -1,0 +1,27 @@
+Triplet:Barack,has,bitter half		Subject: Barack	NER: PERSON		object: bitter half	NER: O
+Triplet:Hillary Clinton 's loss,makes winning,women		Subject: Hillary Clinton 's loss	NER: O		object: women	NER: O
+Triplet:Hillary Clinton 's loss,is in,Democratic primary		Subject: Hillary Clinton 's loss	NER: O		object: Democratic primary	NER: O
+Triplet:Hillary Clinton 's loss,makes winning,women important for Mr Obama		Subject: Hillary Clinton 's loss	NER: O		object: women important for Mr Obama	NER: PERSON
+Triplet:Hillary Clinton 's loss,makes winning,women important		Subject: Hillary Clinton 's loss	NER: O		object: women important	NER: O
+Triplet:Hillary Clinton,has,loss in Democratic primary combined with Republican competition for important female demographics including married		Subject: Hillary Clinton	NER: PERSON		object: loss in Democratic primary combined with Republican competition for important female demographics including married	NER: O
+Triplet:Mrs Obama,could,could asset		Subject: Mrs Obama	NER: PERSON		object: could asset	NER: O
+Triplet:Mrs Obama,could,could quite asset		Subject: Mrs Obama	NER: PERSON		object: could quite asset	NER: O
+Triplet:Barack,has,bitter half		Subject: Barack	NER: PERSON		object: bitter half	NER: O
+Triplet:Hillary Clinton 's loss,makes winning,women		Subject: Hillary Clinton 's loss	NER: O		object: women	NER: O
+Triplet:Hillary Clinton 's loss,is in,Democratic primary		Subject: Hillary Clinton 's loss	NER: O		object: Democratic primary	NER: O
+Triplet:Hillary Clinton 's loss,makes winning,women important for Mr Obama		Subject: Hillary Clinton 's loss	NER: O		object: women important for Mr Obama	NER: PERSON
+Triplet:Hillary Clinton 's loss,makes winning,women important		Subject: Hillary Clinton 's loss	NER: O		object: women important	NER: O
+Triplet:Hillary Clinton,has,loss in Democratic primary combined with Republican competition for important female demographics including married		Subject: Hillary Clinton	NER: PERSON		object: loss in Democratic primary combined with Republican competition for important female demographics including married	NER: O
+Triplet:Mrs Obama,could,could asset		Subject: Mrs Obama	NER: PERSON		object: could asset	NER: O
+Triplet:Mrs Obama,could,could quite asset		Subject: Mrs Obama	NER: PERSON		object: could quite asset	NER: O
+Triplet:Michelle Obama,is in,already midst of makeover		Subject: Michelle Obama	NER: PERSON		object: already midst of makeover	NER: O
+Triplet:It,is,less		Subject: It	NER: O		object: less	NER: O
+Triplet:Michelle Obama,is in,midst		Subject: Michelle Obama	NER: PERSON		object: midst	NER: O
+Triplet:It,is less than,month into general election		Subject: It	NER: O		object: month into general election	NER: O
+Triplet:It,is less than,month		Subject: It	NER: O		object: month	NER: DURATION
+Triplet:Michelle Obama,is in,already midst		Subject: Michelle Obama	NER: PERSON		object: already midst	NER: O
+Triplet:It,is less than,month into election		Subject: It	NER: O		object: month into election	NER: O
+Triplet:Michelle Obama,is in,midst of makeover		Subject: Michelle Obama	NER: PERSON		object: midst of makeover	NER: O
+Triplet:Michelle Obama,could help,court female vote		Subject: Michelle Obama	NER: PERSON		object: court female vote	NER: O
+Triplet:Michelle Obama,could help,court vote		Subject: Michelle Obama	NER: PERSON		object: court vote	NER: O
+Triplet:Michelle Obama,could help,court all-important female vote		Subject: Michelle Obama	NER: PERSON		object: court all-important female vote	NER: O

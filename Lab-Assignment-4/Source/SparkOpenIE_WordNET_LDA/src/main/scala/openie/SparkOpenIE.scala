@@ -16,26 +16,26 @@ object SparkOpenIE {
 
     val sparkContext = new SparkContext(conf)
 
-    val fileName = "OpenIEResults"
-    val writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(fileName)))
+   // val fileName = "OpenIEResults"
+    //val writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(fileName)))
 
 
     // Turn off Info Logger for Console
     Logger.getLogger("org").setLevel(Level.OFF)
     Logger.getLogger("akka").setLevel(Level.OFF)
 
-    val ipfile = sparkContext.textFile("data/michelle.obama").map(s => {
+    val ipfile = sparkContext.textFile("data/sqad_data").map(s => {
       //Getting OpenIE Form of the word using lda.CoreNLP
 
-      val output=CoreNLP.returnTriplets(s)
+      val output=MainNLP.returnTriplets(s)
       output
     })
 
     //println(CoreNLP.returnTriplets("The dog has a lifespan of upto 10-12 years."))
    println(ipfile.collect().mkString("\n"))
     //writing the OPenIE triplets into a file
-    writer.write(ipfile.collect().mkString("\n"))
-    writer.close()
+   // writer.write(ipfile.collect().mkString("\n"))
+    //writer.close()
 
 
 

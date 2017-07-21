@@ -4,7 +4,7 @@
 		module="sparkopenie_wordnet_lda-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20170628141219"
+		publication="20170717191617"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>
